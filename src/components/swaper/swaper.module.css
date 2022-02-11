@@ -1,0 +1,116 @@
+
+
+main {
+    background-color: #fff;
+    width: 450px;
+    margin-top: 250px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+header h2 {
+    opacity: .9;
+}
+
+input {
+    width: 70%;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(228, 228, 228, 0.072);
+    border-style: none;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.coinBox {
+    background-color: rgba(228, 228, 228, 0.250);
+    margin: -10px 20px;
+    border-radius: 10px;
+    display: flex;
+    height: 100px;
+}
+
+.coinBox:hover {
+    border: .5px solid rgba(128, 128, 128, 0.174);
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxHeader {
+    background-color: rgba(208, 204, 204, 0.345);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    height: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.iconBox h4 {
+    margin-right: 5px;
+}
+
+.iconImage {
+    width: 35px;
+}
+
+.balance {
+    margin: 10px 25px;
+    opacity: .7;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.middleIcon {
+    background-color: rgba(208, 204, 204, 0.304);
+    padding: 4px;
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.swapButton {
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+    margin: 20px 20px;
+    background-color: rgba(208, 204, 204, 0.245);
+    font-size: large;
+    font-weight: bold;
+    opacity: .7;
+    border-style: none;
+}
+
+.activeButton {
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+    margin: 20px 20px;
+    background-color: #fc038c;
+    color:white;
+    opacity: 1;
+    font-size: large;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+}
+
+.clickedButton {
+    background-color: orange;
+}

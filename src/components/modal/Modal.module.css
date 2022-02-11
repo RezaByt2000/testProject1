@@ -1,0 +1,95 @@
+.modalBody {
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+.confirmButton {
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+    margin: 10px 20px;
+    background-color: #ff0084;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    opacity: 1;
+    border-style: none;
+    cursor: pointer;
+}
+
+input {
+    width: 70%;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(228, 228, 228, 0.072);
+    border-style: none;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    opacity: .8;
+}
+
+input:focus {
+    outline: none;
+}
+
+.coinBox {
+    background-color: rgba(228, 228, 228, 0.250);
+    margin: -10px 20px;
+    border-radius: 10px;
+    display: flex;
+    height: 80px;
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxHeader {
+    height: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.iconBox h4 {
+    margin-right: 5px;
+}
+
+.iconImage {
+    width: 35px;
+}
+
+.balance {
+    margin: 10px 25px;
+    opacity: .7;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.middleIcon {
+    background-color: rgba(208, 204, 204, 0.245);
+    padding: 4px;
+    border-radius: 50%;
+}
+
+header button {
+    border-style: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footerText {
+    text-align: left;
+    margin: 20px 20px;
+    font-weight: normal;
+}
